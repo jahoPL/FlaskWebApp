@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block content %} 
+<div class="container gallery-container">
+
+    
+
+    
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="https://data.whicdn.com/images/26217082/large.jpg">
+                    <img src="https://data.whicdn.com/images/26217082/large.jpg" alt="Fox">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="http://www.goodwp.com/large/201111/20430.jpg">
+                    <img src="http://www.goodwp.com/large/201111/20430.jpg" alt="Husky">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://www.gregdutoit.com/i/ForestLion_ForestHorizontal_Thumbnail.jpg">
+                    <img src="https://www.gregdutoit.com/i/ForestLion_ForestHorizontal_Thumbnail.jpg" alt="Lion">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <a class="lightbox" href="https://animalcafes.com/pix/800-hara-bengal.jpg">
+                    <img src="https://animalcafes.com/pix/800-hara-bengal.jpg" alt="Cat">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://us.123rf.com/450wm/ondrejprosicky/ondrejprosicky1712/ondrejprosicky171200341/92509624-wildlife-scene-from-tropic-nature-red-bird-in-the-forest-parrot-flight-in-the-green-jungle-habitat-r.jpg?ver=6">
+                    <img src="https://us.123rf.com/450wm/ondrejprosicky/ondrejprosicky1712/ondrejprosicky171200341/92509624-wildlife-scene-from-tropic-nature-red-bird-in-the-forest-parrot-flight-in-the-green-jungle-habitat-r.jpg?ver=6" alt="Parrot">
+                </a>
+            </div> 
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://images.thrillophilia.com/image/upload/s--85K1U8Vw--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/069/336/original/1465200091_Sangeh-Monkey-Forest.jpg.jpg?1465200091">
+                    <img src="https://images.thrillophilia.com/image/upload/s--85K1U8Vw--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/069/336/original/1465200091_Sangeh-Monkey-Forest.jpg.jpg?1465200091" alt="Monkey">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+{% endblock %}
