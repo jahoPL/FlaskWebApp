@@ -8,5 +8,12 @@ def index():
 
 @app.route('/galeria')
 def getGallery():
-    return render_template('galeria.html')
+    galeria = [
+        'https://data.whicdn.com/images/26217082/large.jpg'
+        'http://www.goodwp.com/large/201111/20430.jpg'
+        'https://animalcafes.com/pix/800-hara-bengal.jpg'
+        'https://www.gregdutoit.com/i/ForestLion_ForestHorizontal_Thumbnail.jpg'
+    ]
+
+    return render_template('galeria.html', galeria=galeria)
 
